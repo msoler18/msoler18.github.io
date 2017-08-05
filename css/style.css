@@ -74,3 +74,116 @@ header nav a{
 #home .social a:hover{
 	background-color:black;
 }
+
+#profile{
+	padding: 50px;
+}
+
+#profile h1{
+	text-align: center;
+}
+
+#profile p{
+	text-align: center;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background-color: #000;
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#1c9a71;
+	border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+#portfolio {
+	padding: 50px;
+}
+
+#portfolio h1{
+	text-align: center;
+}
+
+.container-portfolio{
+	position: relative;
+	width: 50px;
+}
+
+.image{
+	display:block;
+	width:100%;
+	height: auto;
+}
+
+.overlay{
+	position:absolute;
+	bottom:100%;
+	left:0;
+	right: 0;
+	background-color:#1c9a71;
+	overflow: hidden;
+	width: 100%
+	height:auto;
+	transition: .5s ease;
+}
+
+.text{
+	white-space: nowrap;
+	color:white;
+	font-size: 20px;
+	position:absolute;
+	overflow: hidden;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.container{
+	width:992px;
+	margin-left: auto;
+	margin-right: auto;
+}
