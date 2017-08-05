@@ -1,0 +1,74 @@
+
+body {
+	font-family: 'Inconsolata', monospace;
+	font-size:16px;
+}
+
+.home-head{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images-portfolio/background.jpg') no-repeat center top;
+}
+
+header{
+	position:fixed;
+	padding: 10px 0;
+	width: 100%;
+	background-color:rgba(48, 48, 48, 0.6);
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header nav a{
+	color:white;
+	font-weight: bold;
+	text-decoration:none;
+	margin-left: 10px;
+	padding: 10px 15px;
+}
+
+#home {
+	text-align:center;
+	padding:200px 0 150px;
+}
+
+#home h1{
+	font-size: 68px;
+	color: white;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+#home p {
+	color:white;
+	font-size:20px;
+}
+
+#home .divider{
+	width:100px;
+	border-top:5px solid #1c9a71;
+	margin:0 auto;
+}
+
+#home .social {
+	margin-top: 80px;
+}
+
+#home .social a{
+	color:white;
+	display:inline-block;
+	border-radius:50%;
+	background-color:#1c9a71;
+	font-size:24px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+}
+
+#home .social a:hover{
+	background-color:black;
+}
