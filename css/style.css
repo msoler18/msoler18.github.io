@@ -5,7 +5,9 @@ body {
 }
 
 .home-head{
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images-portfolio/background.jpg') no-repeat center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images-portfolio/background.jpg');
+	background-attachment: fixed;
+	background-position: center;
 }
 
 header{
@@ -47,8 +49,8 @@ header nav a{
 }
 
 #home .divider{
-	width:100px;
-	border-top:5px solid #1c9a71;
+	width:200px;
+	border-top:4px solid #1c9a71;
 	margin:0 auto;
 }
 
