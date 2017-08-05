@@ -10,6 +10,12 @@ body {
 	background-position: center;
 }
 
+@media only screen and (max-width: 500px){
+	.home-head{
+		background-color: #fff;
+	}
+}
+
 header{
 	position:fixed;
 	padding: 10px 0;
@@ -20,6 +26,11 @@ header{
 header nav{
 	float:right;
 	margin-top:10px;
+}
+
+header nav a.active{
+	background-color:#1c9a71;
+	border-radius: 3px; 
 }
 
 header nav a{
@@ -41,6 +52,11 @@ header nav a{
 	font-weight: normal;
 	line-height: 1.2;
 	margin-bottom: 40px;
+}
+@media (max-width:400px) {
+	#home h1{
+		font-size: 20px;
+	}
 }
 
 #home p {
